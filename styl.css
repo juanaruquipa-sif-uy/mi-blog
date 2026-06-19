@@ -1,0 +1,61 @@
+/* Fuente moderna y colorida */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    color: #333;
+}
+
+/* Encabezado con estilo llamativo */
+header {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+}
+
+/* Menú colorido */
+nav {
+    background: #333;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+nav a:hover {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+    border-radius: 5px;
+}
+
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+
+/* Footer vibrante */
+footer {
+    background: linear-gradient(135deg, #ee0979, #ff6a00);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
